@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="loader_indicator_tint">#66f</color>
+    <color name="action_play_tint">#0a0</color>
+    <color name="action_stop_tint">#f00</color>
+</resources>

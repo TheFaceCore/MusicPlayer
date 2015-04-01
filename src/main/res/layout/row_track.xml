@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="60dp">
+    <LinearLayout
+            android:id="@+id/not_loaded_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <TextView
+                android:id="@+id/track_uri"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:textSize="@dimen/track_uri" />
+    </LinearLayout>
+    <LinearLayout
+            android:id="@+id/loading_layout"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <TextView
+                android:id="@+id/loading_track_uri"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:textSize="@dimen/track_uri" />
+        <ProgressBar
+                android:id="@+id/progress_bar"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"/>
+    </LinearLayout>
+    <LinearLayout
+            android:id="@+id/loaded_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <ImageView
+                android:id="@+id/track_action_img"
+                android:layout_width="60dp"
+                android:layout_height="match_parent"
+                android:padding="6dp"/>
+        <TextView
+                android:id="@+id/track_name"
+                android:padding="6dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="start|center_vertical"
+                android:textSize="@dimen/track_title" />
+    </LinearLayout>
+</LinearLayout>

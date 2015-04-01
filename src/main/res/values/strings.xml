@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Music Player</string>
+
+    <string name="playlist_loader_title">Загрузка списка воспроизведения</string>
+    <string name="playlist_loading_error">При загрузке произошла ошибка</string>
+    <string name="playlist_parsing_error">При чтении списка произошла ошибка</string>
+    <string name="track_loading_error">При загрузке песни произошла ошибка</string>
+    <string name="playlist_empty_error">Список возпроизведения пуст. Наполните его или укажите другой адрес списка</string>
+    <string name="track_playing_error">Невозможно воспроизвести песню</string>
+    <string name="invalid_track">Загруженная песня имеет неправильный формат. Она будет удалена</string>
+    <string name="playlist_reload">Попробовать снова</string>
+    <string name="track_reload">Попробовать снова</string>
+    <string name="cancel">Отмена</string>
+    <string name="ok">Хорошо</string>
+    <string name="skip">Пропустить</string>
+
+</resources>
